@@ -16,6 +16,7 @@ class Modelo(models.Model):
     alto = models.CharField(max_length=20)
     ancho = models.CharField(max_length=20)
     profundidad = models.CharField(max_length=20)
+    
 
     def __str__(self):
         return self.name
